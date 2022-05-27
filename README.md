@@ -21,32 +21,40 @@ Data was sourced from Big Mart's sales data in 2013, containing 1559 items sold 
 - Predictive modeling (linear regression, decision tree)
 
 
-## Results
+## Key Insights
 
 
-#### Visual 1 Title
-![sample image](Sales vs MRP.png)
+#### Sales vs. MRP
+![Sales vs. MRP](sales_vs_mrp.png)
 
-> Sentence about visualization.
+> Sales are positively correlated with MRP, even though fewer items have higher MRPs.
 
-#### Visual 2 Title
+#### Sales by Outlet
+![Sales by Outlet](sales_by_outlet.png)
+
+> OUT010 and OUT019 show low sales, while OUT027 shows high sales.
+
+#### Sales vs. MRP by Outlet
+![Sales vs. MRP by Outlet](sales_vs_mrp_by_outlet.png)
 
 ## Model
 
-Describe your final model
+The final model is a decision tree with max_depth = 6 and min_samples_leaf = 51.
 
-Report the most important metrics
+This model shows an R^2 of 0.60, a mean absolute error (MAE) of 735, and a root-mean squared error (RMSE) of 1056.
 
-Refer to the metrics to describe how well the model would solve the business problem
+This model can explain 60% of the variance in item sales based on the given item and outlet features. On average, the model is off by 735 sales with a residual standard deviation of 1056 sales.
 
 ## Recommendations:
 
-More of your own text here
+- Increase the number of high-MRP (luxury) items for sale, since MRP is correlated with sales (consumers may like luxury items)
+- End contracts with OUT010 and OUT019, since sales are very low in these outlets
+- Test new luxury products in OUT027, since sales are highest at this outlet
 
 
 ## Limitations & Next Steps
 
-More of your own text here
+A future project could explore the use of boosting to increase model complexity and reduce MAE without overfitting. Other regression models could also be tested, such as a random forest model.
 
 
 ### For further information
