@@ -37,6 +37,9 @@ Data was sourced from Big Mart's sales data in 2013, containing 1559 items sold 
 #### Sales vs. MRP by Outlet
 ![Sales vs. MRP by Outlet](sales_vs_mrp_by_outlet.png)
 
+> OUT010 and OUT019 show low sales across the entire range of MRPs, while OUT027 shows high sales across the entire range
+
+
 ## Model
 
 The final model is a decision tree with max_depth = 6 and min_samples_leaf = 51.
@@ -45,11 +48,12 @@ This model shows an R^2 of 0.60, a mean absolute error (MAE) of 735, and a root-
 
 This model can explain 60% of the variance in item sales based on the given item and outlet features. On average, the model is off by 735 sales with a residual standard deviation of 1056 sales.
 
+
 ## Recommendations:
 
-- Increase the number of high-MRP (luxury) items for sale, since MRP is correlated with sales (consumers may like luxury items)
-- End contracts with OUT010 and OUT019, since sales are very low in these outlets
-- Test new luxury products in OUT027, since sales are highest at this outlet
+- Increase the number of high-MRP (luxury) items for sale, since MRP is correlated with sales (consumers like luxury items)
+- End contracts with OUT010 and OUT019, since sales are very low at these outlets
+- Push new luxury products to OUT027 first, since sales are highest at this outlet
 
 
 ## Limitations & Next Steps
