@@ -51,7 +51,7 @@ This model can explain 60% of the variance in item sales based on the given item
 
 ## Recommendations:
 
-- Increase the number of high-MRP (luxury) items for sale, since MRP is correlated with sales (consumers like luxury items)
+- Increase the number of high-MRP (luxury) items for sale, since MRP is correlated with sales (consumers may prefer luxury items)
 - End contracts with OUT010 and OUT019, since sales are very low at these outlets
 - Push new luxury products to OUT027 first, since sales are highest at this outlet
 
