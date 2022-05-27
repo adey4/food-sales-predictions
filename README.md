@@ -25,7 +25,7 @@ Data was sourced from Big Mart's sales data in 2013, containing 1559 items sold 
 
 
 #### Visual 1 Title
-![sample image](project1_sample_image.png)
+![sample image](Sales vs MRP.png)
 
 > Sentence about visualization.
 
