@@ -58,7 +58,7 @@ This model can explain 60% of the variance in item sales based on the given item
 
 ## Limitations & Next Steps
 
-A future project could explore the use of boosting to increase model complexity and reduce error without overfitting. Other regression models could also be tested, such as a random forest model, however both of these changes would reduce the interpretability of the model.
+A future project could explore the use of boosting to increase model complexity and reduce error without overfitting. Other regression models could also be tested, such as a random forest model. Although these changes may result in better predictions, they would reduce the interpretability of the final model.
 
 
 ### Contact
