@@ -16,9 +16,9 @@ Data was sourced from Big Mart's sales data in 2013, containing 1559 items sold 
 - Data mining
 - Data cleaning
   - Item_Weight and Outlet_Size columns were missing 17.2% and 28.3% of their rows, respectively. Item_Weight is a continuous numerical variable with no large outliers, so mean values were imputed in missing rows. Outlet_Size is an ordinal variable, so missing rows were imputed with the most frequent outlet size.
-- Exploratory analyses
-- Machine Learning
-- Predictive modeling (linear regression, decision tree)
+- Exploratory analyses to extract insights
+- Machine Learning:
+  - Predictive modeling (linear regression, decision tree)
 
 
 ## Key Insights
