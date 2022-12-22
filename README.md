@@ -23,18 +23,18 @@ Data was sourced from Big Mart's sales data in 2013, containing 1559 items sold 
 
 ## Key Insights
 
-
-#### Sales vs. MRP
 ![Sales vs. MRP](sales_vs_mrp.png)
 
 > Sales are positively correlated with MRP, even though fewer items have higher MRPs.
 
-#### Sales by Outlet
+#
+
 ![Sales by Outlet](sales_by_outlet.png)
 
 > OUT010 and OUT019 show low sales, while OUT027 shows high sales.
 
-#### Sales vs. MRP by Outlet
+#
+
 ![Sales vs. MRP by Outlet](sales_vs_mrp_by_outlet.png)
 
 > OUT010 and OUT019 show low sales across the entire range of MRPs, while OUT027 shows high sales across the entire range
@@ -44,9 +44,9 @@ Data was sourced from Big Mart's sales data in 2013, containing 1559 items sold 
 
 The final model is a decision tree with max_depth = 6 and min_samples_leaf = 51.
 
-This model shows an R^2 of 0.60, a mean absolute error (MAE) of 735, and a root-mean squared error (RMSE) of 1056.
+The model shows an R^2 of 0.60, a mean absolute error (MAE) of 735, and a root-mean squared error (RMSE) of 1056.
 
-This model can explain 60% of the variance in item sales based on the given item and outlet features. On average, the model is off by 735 sales with a residual standard deviation of 1056 sales.
+60% of the variance in item sales can be explained by the model based on the given item and outlet features. On average, the model is off by 735 sales with a residual standard deviation of 1056 sales.
 
 
 ## Recommendations:
