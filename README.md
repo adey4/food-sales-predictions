@@ -1,5 +1,5 @@
-# Predicting item sales 
-## Creating a model to predict item sales based on item and outlet info
+# Food Sales Predictions
+## Highly interpretable decision-tree based model that predicts item sales based on item and outlet info.
 
 **Author**: Ankit Dey
 
