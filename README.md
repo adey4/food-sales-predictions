@@ -9,7 +9,7 @@ The purpose of this project is to create a model to predict item sales based on 
 
 
 ### Data:
-Data was sourced from Big Mart's sales data in 2013, containing 1559 items sold across 10 outlets. The dataset contains 7 categorical variables and 5 numerical variables, all representing relevant information about an item or its outlet.
+Data was sourced from Big Mart's sales data in 2013, containing 1559 items sold across 10 outlets. The dataset contains 7 categorical variables and 5 numerical variables, all representing relevant information about an item or the store it is sold at.
 
 
 ## Methods Used
