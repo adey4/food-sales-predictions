@@ -1,5 +1,5 @@
 # Food Sales Predictions
-## Interpretable decision-tree based model that predicts item sales based on item and outlet info.
+## Interpretable decision-tree based model that predicts item sales based on item and outlet info
 
 **Author**: Ankit Dey
 
