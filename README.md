@@ -1,5 +1,5 @@
 # Food Sales Analysis
-## Decision-tree based model for predicting Big Mart's food sales based on item and outlet information
+## Decision-tree based model to predict Big Mart's food sales based on item and outlet information
 
 **Author**: Ankit Dey
 
